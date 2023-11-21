@@ -5,8 +5,8 @@
 }
 
 :root {
-  --darkblue: rgb(48, 48, 226);
-  --lightblue: #add8e6;
+  --orange: rgb(194, 81, 29);
+  --lightorange: rgb(223, 126, 82);
 }
 
 header {
@@ -22,8 +22,8 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: black;
-  color: var(--lightblue)
+  background-color: navy;
+  color: var(--lightorange);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: var(--darkblue);
+  color: var(--orange);
   font-size: 40px;
 }
 
@@ -53,10 +53,30 @@ p {
 }
 
 a {
-  color:var(--darkblue);
+  color:var(--orange);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--lightblue);
+  color: var(--lightorange);
 }
+
+.hero-background {
+  background-image: url(../images/hero-image.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 8vw;
+  text-align: center;
+  position: relative;
+}
+
+.hero-background h2 {
+  color:white;
+  position: absolute;
+  margin: 5vh;
+  bottom: 0;
+  left: 0;
+  font-size: 27px;
+}
+
