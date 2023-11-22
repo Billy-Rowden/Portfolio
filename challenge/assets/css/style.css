@@ -93,7 +93,7 @@ a:hover {
   padding: 2vw 2vw;
 }
 
-#profile-about, #work-title, #contact-title {
+#profile-about, #work-heading, #contact-heading {
   width:15%;
   text-align: center;
 }
@@ -124,3 +124,47 @@ a:hover {
   border-left: 5px solid var(--orange)
 }
 /*^paragraph content on the right of the screen */
+
+/* Assigning positions within a grid for work section*/
+.work-grid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 400px 300px 300px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "horiseon horiseon"
+  "placeholder1 placeholder2"
+  "placeholder3 placeholder4"
+  ;
+  width:75%;
+  padding-left: 2vw;
+  border-left: 5px solid var(--orange);
+}
+
+.work-grid-area {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 8px;
+  display:grid;
+  align-content: end;
+  cursor: pointer;
+}
+
+#horiseon {
+  grid-area:horiseon;
+  background-image: url("../images/horiseon-screenshot.jpg"); 
+}
+#placeholder1 {
+  grid-area: placeholder1;
+}
+#placeholder2 {
+  grid-area: placeholder2;
+}
+#placeholder3 {
+  grid-area: placeholder3;
+}
+#placeholder4 {
+  grid-area: placeholder4;
+}
+
