@@ -113,7 +113,7 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  width: 100%;
   text-align: center;
 }
 
@@ -157,14 +157,18 @@ a:hover {
 }
 #placeholder1 {
   grid-area: placeholder1;
+  background-image: url("../images/Place-holder-img1.jpg");
 }
 #placeholder2 {
   grid-area: placeholder2;
+  background-image: url("../images/Place-holder-img2.jpg");
 }
 #placeholder3 {
   grid-area: placeholder3;
+  background-image: url("../images/Place-holder-img3.jpg");
 }
 #placeholder4 {
   grid-area: placeholder4;
+  background-image: url("../images/Place-holder-img4.jpg");
 }
 
