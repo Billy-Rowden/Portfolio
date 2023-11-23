@@ -75,7 +75,7 @@ a:hover {
 .profile-picture {
   width: 10vw;
   height: auto;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 #profile-about {
@@ -127,7 +127,7 @@ a:hover {
 
 /* Assigning positions within a grid for work section*/
 .work-grid {
-  margin: 0px 5%;
+  margin-left: 3vw;
   display: grid;
   grid-template-rows: 400px 300px 300px;
   grid-template-columns: 50% 50%;
@@ -137,7 +137,7 @@ a:hover {
   "placeholder3 placeholder4"
   ;
   width:75%;
-  padding-left: 2vw;
+  padding-left: 3vw;
   border-left: 5px solid var(--orange);
 }
 
@@ -151,24 +151,37 @@ a:hover {
   cursor: pointer;
 }
 
+.work-grid-area a {
+  background-color: var(--orange);
+  color:white;
+  font-size: 25px;
+  padding: 8px;
+  text-align: left;
+}
+
 #horiseon {
   grid-area:horiseon;
   background-image: url("../images/horiseon-screenshot.jpg"); 
+  border-radius: 10px;
 }
 #placeholder1 {
   grid-area: placeholder1;
   background-image: url("../images/Place-holder-img1.jpg");
+  border-radius: 10px;
 }
 #placeholder2 {
   grid-area: placeholder2;
   background-image: url("../images/Place-holder-img2.jpg");
+  border-radius: 10px;
 }
 #placeholder3 {
   grid-area: placeholder3;
   background-image: url("../images/Place-holder-img3.jpg");
+  border-radius: 10px;
 }
 #placeholder4 {
   grid-area: placeholder4;
   background-image: url("../images/Place-holder-img4.jpg");
+  border-radius: 10px;
 }
 
