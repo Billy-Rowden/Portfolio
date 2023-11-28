@@ -182,25 +182,40 @@ a {
 #placeholder1 {
   grid-area: placeholder1;
   background-image: url("../images/Place-holder-img1.jpg");
-  border-radius: 10px;
 }
 
 #placeholder2 {
   grid-area: placeholder2;
   background-image: url("../images/Place-holder-img2.jpg");
-  border-radius: 10px;
+
 }
 
 #placeholder3 {
   grid-area: placeholder3;
   background-image: url("../images/Place-holder-img3.jpg");
-  border-radius: 10px;
+  
 }
 
 #placeholder4 {
   grid-area: placeholder4;
   background-image: url("../images/Place-holder-img4.jpg");
+}
+
+#horiseon,
+#placeholder1,
+#placeholder2,
+#placeholder3,
+#placeholder4 {
+  opacity: 0.7;
   border-radius: 10px;
+}
+
+#horiseon:hover,
+#placeholder1:hover,
+#placeholder2:hover,
+#placeholder3:hover,
+#placeholder4:hover {
+  opacity: 1;
 }
 
 /* contact section */
