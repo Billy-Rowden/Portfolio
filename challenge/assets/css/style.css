@@ -153,6 +153,7 @@ a {
   border-left: 8px solid var(--orange);
 }
 
+
 .work-grid-area {
   background-position: center;
   background-size: cover;
@@ -161,9 +162,8 @@ a {
   display:grid;
   align-content: end;
   cursor: pointer;
+  opacity: 0.5;
 }
-
-/* .work-grid-area a {} will no longer be needed once bgrnd imgs are made clickable */
 
 .grid-heading {
   background-color: var(--orange);
@@ -201,20 +201,7 @@ a {
   background-image: url("../images/Place-holder-img4.jpg");
 }
 
-#horiseon,
-#placeholder1,
-#placeholder2,
-#placeholder3,
-#placeholder4 {
-  opacity: 0.7;
-  border-radius: 10px;
-}
-
-#horiseon:hover,
-#placeholder1:hover,
-#placeholder2:hover,
-#placeholder3:hover,
-#placeholder4:hover {
+.work-grid-area:hover {
   opacity: 1;
 }
 
@@ -235,4 +222,13 @@ a {
   color: white;
   text-decoration: none;
   font-size: 20px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1000px){
+}
+
+@media only screen and (max-width: 768px){
+  
 }
