@@ -33,9 +33,12 @@ p {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar a {
   color:var(--orange);
-  text-decoration: none;
 }
 
 .navbar a:hover {
@@ -160,13 +163,14 @@ p {
   cursor: pointer;
 }
 
-.work-grid-area a {
+/* .work-grid-area a {} will no longer be needed once bgrnd imgs are made clickable */
+
+.grid-heading {
   background-color: var(--orange);
-  color:white;
+  color: white;
   font-size: 25px;
   padding: 8px;
   text-align: left;
-  text-decoration: none;
 }
 
 #horiseon {
