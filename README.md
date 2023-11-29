@@ -53,7 +53,7 @@ By selecting any of the links titled "About me", "Work", and "Contact Me" locate
 
 The original starter code - Courtesy of EdX Bootcamps
 
-Study groups with Davou Jobbi, Andrea Fontana, Thomas Jack, Lauren eaton, Mirian tomani held to help understand, troubleshoot and debug each others code.
+Study groups with Davou Jobbi, Andrea Fontana, Thomas Jack, Lauren Eaton, Mirian Tomani held to help understand, troubleshoot and debug each others code.
 
 ## Badges
 
