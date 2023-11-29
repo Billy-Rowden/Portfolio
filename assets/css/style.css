@@ -16,7 +16,7 @@ body {
   font-family: var(--fontfamily);
   line-height: 1.5;
   background-color: rgb(41, 41, 44);
-  color: var(--lightorange);
+  color: var(--orange);
 }
 
 h1 {
