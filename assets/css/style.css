@@ -21,12 +21,12 @@ body {
 
 h1 {
   color: var(--orange);
-  font-size: 50px;
+  font-size: 45px;
 }
 
 h2 {
   color: var(--orange);
-  font-size: 40px;
+  font-size: 30px;
 }
 
 p {
@@ -66,15 +66,16 @@ a {
   background-image: url(../images/hero-image.jpg);
   background-size:cover;
   background-repeat: no-repeat;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 100%;
-  height: 8vw;
+  height: 10vw;
   text-align: center;
-  position: relative;
 }
 
 .hero-background h2 {
   color:white;
-  position: absolute;
   margin: 5vh;
   bottom: 0;
   left: 0;
@@ -96,7 +97,7 @@ a {
   align-items: center;
 }
 
-.page-section {
+.page-section, .page-section-contact {
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -163,6 +164,7 @@ a {
   align-content: end;
   cursor: pointer;
   opacity: 0.5;
+  border-radius:10px;
 }
 
 .grid-heading {
@@ -176,7 +178,6 @@ a {
 #horiseon {
   grid-area:horiseon;
   background-image: url("../images/horiseon-screenshot.jpg");
-  border-radius:10px;
 }
 
 #placeholder1 {
@@ -209,7 +210,7 @@ a {
 
 #contact-content {
   width:75%;
-  height: 80px;
+  height: 100px;
   margin-left: 3vw;
   border-left: 8px solid var(--orange);
   text-decoration: none;
@@ -224,11 +225,106 @@ a {
   font-size: 20px;
 }
 
+#contact-content a:hover {
+  color: var(--lightorange);
+}
+
+footer {
+  display:flex;
+  justify-content: end;
+  color:var(--orange);
+  text-decoration: none;
+  right: 200px;
+}
+
+footer a{
+  color:var(--orange);
+}
+
+footer a:hover {
+  color:var(--lightorange);
+}
+
 /* Media queries */
 
 @media screen and (max-width: 1000px){
 }
 
 @media only screen and (max-width: 768px){
-  
+  .navigation {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 6vw;
+  }
+  /*Navbar*/
+  .navbar {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:3vw;
+    font-size: 20px;
+  }
+  /*Hero banner*/
+  .hero-background {
+    height: 20vw;
+    display:flex;
+    justify-content: center;
+  }
+  /*Display of section contents*/
+  .profile-picture {
+    width:30vw;
+    border-radius: 10px;
+  }
+
+  /*Puts titles of sections on top of their contents*/
+  #about,
+  #work,
+  #contact {
+    display:flex;
+    flex-direction: column;
+    padding: 4vw 3vw;
+  }
+
+  #profile-about {
+    display:flex;
+    flex-direction: column;
+  }
+
+  #profile-about,
+  #work-heading,
+  #contact-heading {
+    width: auto;
+  }
+
+  #about-para {
+    width: 90%;
+    margin: 1vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 4vw;
+    text-align: center;
+  }
+
+  .work-grid {
+    width:90%;
+    padding:0;
+    margin:1vw;
+  }
+
+  #contact {
+    display:flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 1vw;
+  }
+
+  #contact-content {
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+  }
+
 }
