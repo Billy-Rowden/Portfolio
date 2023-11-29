@@ -49,6 +49,10 @@ By selecting any of the links titled "About me", "Work", and "Contact Me" locate
 
 ![Alt text](<assets/images/Portfolio-navbar.png>)
 
+By selecting any of the links in the "Contact Me" section located towards the bottom of the page, the user will be taken to my different social media profile pages in a new tab. 
+
+![Alt text](<assets/images/contactme-screenshot.png>)
+
 ## Credits
 
 The original starter code - Courtesy of EdX Bootcamps
